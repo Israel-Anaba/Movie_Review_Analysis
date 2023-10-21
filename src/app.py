@@ -27,14 +27,20 @@ def sent_analysis(text):
 # Create a Gradio interface
 demo = gr.Interface(
     fn=sent_analysis,
-    inputs=gr.Textbox(placeholder="Share your thoughts on COVID vaccines..."),
+    inputs=gr.Textbox(placeholder="Enter a movie review..."),
     outputs="label",
     interpretation="default",
-    title="COVID Vaccine Sentiment Analysis",
-    description="An AI model that predicts sentiment about COVID vaccines, providing labels for 'NEGATIVE', 'NEUTRAL', and 'POSITIVE' sentiments.",
+    examples=[
+        ["I loved the movie! It was fantastic."],
+        ["The acting was terrible, and the plot was boring."],
+        ["This film is just okay. Not great, not terrible."],
+    ],
+    title="Movie Review Sentiment Analysis",
+    description="An AI model that predicts sentiment in movie reviews, providing labels for 'NEGATIVE' and 'POSITIVE' sentiments.",
     theme="default",
     live=True,
 )
+
 
 if __name__ == "__main__":
     demo.launch()
