@@ -36,7 +36,7 @@ demo = gr.Interface(
         ["This film is just okay. Not great, not terrible."],
     ],
     title="Movie Review Sentiment Analysis",
-    description="An AI model that predicts sentiment in movie reviews, providing labels for 'NEGATIVE', 'NEUTRAL', and 'POSITIVE' sentiments.",
+    description="An AI model that predicts sentiment in movie reviews, providing labels for 'NEGATIVE' and 'POSITIVE' sentiments.",
     theme="default",
     live=True,
 )
