@@ -2,14 +2,19 @@
 import gradio as gr
 import joblib
 import pickle
+from text_preprocessing import process_text
+
 
 # Load the exported components
-with open("sentiment_components.pkl", 'rb') as file:
-    loaded_components = pickle.load(file)
+# Load exported data
+components_path = r'src\assets\ML\sentiment_components.pkl'
+with open(components_path, 'rb') as file:
+    components_dict = pickle.load(file)
 
-loaded_cleaner = loaded_components['cleaner']
-loaded_vectorizer = loaded_components['cleaner_tfidf_vectorizer']
-loaded_classifier = loaded_components['cleaner_classifier']
+
+loaded_cleaner = components_dict['cleaner']
+loaded_vectorizer = components_dict['cleaner_tfidf_vectorizer']
+loaded_classifier = components_dict['cleaner_classifier']
 
 def sent_analysis(text):
     # Preprocess the input text using the loaded cleaner
