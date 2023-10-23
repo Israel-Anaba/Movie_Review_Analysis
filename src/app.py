@@ -6,7 +6,6 @@ from text_preprocessing import process_text
 
 
 # Load the exported components
-# Load exported data
 components_path = r'src\assets\ML\sentiment_components.pkl'
 with open(components_path, 'rb') as file:
     components_dict = pickle.load(file)
