@@ -20,11 +20,11 @@ The objective of this project is to perform sentiment analysis on text data. Giv
 - [Contributing](#contributing)
 - [License](#license) -->
 
-## About: 📚
+## About 📚
 🎓 Capstone Project - Data Analytics Program with [Azubi Africa](https://www.azubiafrica.org/data-analytics)
 This project is the culmination of a 9-month Data Analytics program with Azubi Africa. It aims to analyze movie reviews and classify them into one of three sentiment categories: positive, negative, or neutral. Leveraging Deep Learning and Natural Language Processing (NLP) techniques, it provides sentiment predictions for movie reviews.
 
-## Preview :👁️
+## Preview 👁️
 
 
 ## Notable Features 🌟
@@ -87,7 +87,7 @@ To set up and run the project:
    python app.py
    ```
 
-## Usage :🚀
+## Usage 🚀
 
 1. **Launch the Gradio App:** Start the Gradio app by running `python app.py`.
 
@@ -127,7 +127,7 @@ Here are a few recommended resources to help you gain a solid understanding of t
 I would like to express my gratitude to the [Azubi Africa Data Analyst Program](https://www.azubiafrica.org/data-analytics) for their support and for offering valuable projects as part of this program. Not forgeting my scrum masters on this program [Rachel Appiah-Kubi](https://www.linkedin.com/in/racheal-appiah-kubi/) & [Emmanuel Koupoh](https://github.com/eaedk)
 
 
-## License :📜
+## License 📜
 
 This project is open-source and available under the [MIT License](LICENSE).
 
