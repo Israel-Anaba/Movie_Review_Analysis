@@ -24,9 +24,13 @@ def sent_analysis(text):
     
     # Make predictions using the loaded classifier
     prediction = loaded_classifier.predict(X_tfidf)[0]
-    
-    # Return the predicted sentiment label
+
+    # Define sentiment labels
+    sentiment_labels = ['Negative', 'Positive']
+   
+   # Return the predicted sentiment label
     return prediction
+
 
 # Create a Gradio interface
 demo = gr.Interface(
