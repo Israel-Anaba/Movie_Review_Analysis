@@ -111,6 +111,7 @@ This project was developed during the Azubi Africa Data Science Training. Below 
 ## Contributing 🤝
 
 Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md).
+<!-- Contributions are welcome! Feel free to open an issue or submit a pull request. -->
 
 ## Resources 📚
 
