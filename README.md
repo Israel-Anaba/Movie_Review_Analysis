@@ -9,22 +9,20 @@ The objective of this project is to perform sentiment analysis on text data. Giv
 ![MIT License](https://img.shields.io/badge/License-MIT-lightgrey)
 ![Jupyter Notebook](https://img.shields.io/badge/Notebook-Jupyter-yellow)
 ![Docker](https://img.shields.io/badge/Docker-Ready-blueviolet)
+[![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
-
-<!-- ## Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license) -->
 
 ## About 📚
 🎓 Capstone Project - Data Analytics Program with [Azubi Africa](https://www.azubiafrica.org/data-analytics)
+
 This project is the culmination of a 9-month Data Analytics program with Azubi Africa. It aims to analyze movie reviews and classify them into one of three sentiment categories: positive, negative, or neutral. Leveraging Deep Learning and Natural Language Processing (NLP) techniques, it provides sentiment predictions for movie reviews.
 
 ## Preview 👁️
+
+Below is a preview showcasing the app's interface.
+
+<!-- ![Prev](Screenshots/Preview3.png) -->
 
 
 ## Notable Features 🌟
@@ -51,7 +49,7 @@ To set up and run the project:
 
 1. **Clone the repository**:
    ```bash
-   git clone '<https://github.com/yourusername/movie-sentiment-analysis.git>'
+   git clone '<https://github.com/Israel-Anaba/Movie_Review_Analysis.git>'
 ```
 
 2. Navigate to the project directory:
@@ -98,7 +96,7 @@ To set up and run the project:
 - To access the sepsis prediction app, you will need to be signed in to Hugging Face:
 
 1. If you don't have a Hugging Face account, you can sign up for free at .
-<!-- [Hugging Face](https://huggingface.co/signup). -->
+[Hugging Face](https://huggingface.co/signup).
 2. After signing in, you can access the app using the following URL:
    <!-- 🤖[https://gr8testgad-1-sepsis-prediction.hf.space/docs](https://gr8testgad-1-sepsis-prediction.hf.space/docs) -->
 
@@ -119,7 +117,7 @@ Here are a few recommended resources to help you gain a solid understanding of t
 
 [Get started with Gradio](https://gradio.app/getting_started/)
 
-<!-- [Get to know about Hugging Face](https://huggingface.co/) -->
+[Get to know about Hugging Face](https://huggingface.co/)
 
 [More on Docker](https://www.docker.com/)
 
