@@ -43,9 +43,19 @@ demo = gr.Interface(
         ["The acting was terrible, and the plot was boring."],
         ["This film is just okay. Not great, not terrible."],
     ],
-    title="Movie Review Sentiment Analysis",
-    description="An AI model that predicts sentiment in movie reviews, providing labels for 'NEGATIVE' and 'POSITIVE' sentiments.",
+    # title="Movie Review Analysis",
+    # description="A Machine Learning model that predicts sentiment in movie reviews, providing labels for 'NEGATIVE' and 'POSITIVE' sentiments.",
+    # theme="default",
+
+    title="Movie Review Sentiment Analysis 🤖👍 👎",
+    description="""
+    <p style='text-align: center'>Explore this Movie Review Sentiment Analysis tool to classify the sentiment of movie reviews .</p>
+    <p style='text-align: center'>Simply enter your movie review text to see the predicted sentiment.</p>
+    <p style='text-align: center'>This Machine Learning model is designed to help you understand the sentiment conveyed in movie reviews, whether they are Positive OR Negative.</p>
+    <p style='text-align: center'><a href='https://github.com/Israel-Anaba/Movie_Review_Analysis/blob/main/src/app.py' target='_blank'>Check out the GitHub repository for more details.</a></p>
+    """,
     theme="default",
+
     live=True,
 )
 
