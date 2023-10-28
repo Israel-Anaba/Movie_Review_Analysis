@@ -9,6 +9,7 @@ The objective of this project is to perform sentiment analysis on text data. Giv
 ![MIT License](https://img.shields.io/badge/License-MIT-lightgrey)
 ![Jupyter Notebook](https://img.shields.io/badge/Notebook-Jupyter-yellow)
 ![Docker](https://img.shields.io/badge/Docker-Ready-blueviolet)
+[![Hugging Face Deployment](https://img.shields.io/badge/Hugging%20Face-Deployed-brightgreen)](https://huggingface.co/my-awesome-ml-web-app)
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
@@ -23,6 +24,9 @@ This project is the culmination of a 9-month Data Analytics program with Azubi A
 Below is a preview showcasing the app's interface.
 
 <!-- ![Prev](Screenshots/Preview3.png) -->
+
+
+[Gradio App is available for interaction on this url](http://127.0.0.1:7860/)
 
 
 ## Notable Features 🌟
@@ -98,7 +102,7 @@ To set up and run the project:
 1. If you don't have a Hugging Face account, you can sign up for free at .
 [Hugging Face](https://huggingface.co/signup).
 2. After signing in, you can access the app using the following URL:
-   <!-- 🤖[https://gr8testgad-1-sepsis-prediction.hf.space/docs](https://gr8testgad-1-sepsis-prediction.hf.space/docs) -->
+   🤖[Movie-Review-Analysis](https://gr8testgad-1-movie-review-analysis.hf.space)
 
 
 ## Author 📖 🧑‍🎓
