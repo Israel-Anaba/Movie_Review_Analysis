@@ -26,7 +26,7 @@ Below is a preview showcasing the app's interface.
 <!-- ![Prev](Screenshots/Preview3.png) -->
 
 
-[Gradio App is available for interaction on this url](http://127.0.0.1:7860/)
+ 👉[Gradio App is available for interaction on this url](http://127.0.0.1:7860/)
 
 
 ## Notable Features 🌟
@@ -101,8 +101,8 @@ To set up and run the project:
 
 1. If you don't have a Hugging Face account, you can sign up for free at .
 [Hugging Face](https://huggingface.co/signup).
-2. After signing in, you can access the app using the following URL:
-   🤖[Movie-Review-Analysis](https://gr8testgad-1-movie-review-analysis.hf.space)
+2. After signing in, you can access the app using the link below:
+   🔔🤖[Movie-Review-Analysis](https://gr8testgad-1-movie-review-analysis.hf.space)
 
 
 ## Author 📖 🧑‍🎓
