@@ -2672,7 +2672,7 @@ review_file,predicted_sentiment
 11201_10.txt,positive
 11201_2.txt,negative
 11202_1.txt,negative
-11202_10.txt,negative
+11202_10.txt,positive
 11203_10.txt,positive
 11203_2.txt,negative
 11204_10.txt,positive
@@ -16713,7 +16713,7 @@ review_file,predicted_sentiment
 6270_3.txt,negative
 6271_4.txt,positive
 6271_9.txt,positive
-6272_1.txt,negative
+6272_1.txt,positive
 6272_9.txt,negative
 6273_1.txt,negative
 6273_10.txt,positive
