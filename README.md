@@ -12,9 +12,8 @@ The objective of this project is to perform sentiment analysis on text data. Giv
 [![Hugging Face Deployment](https://img.shields.io/badge/Hugging%20Face-Deployed-brightgreen)](https://huggingface.co/my-awesome-ml-web-app)
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-
-
 ## About 📚
+
 🎓 Capstone Project - Data Analytics Program with [Azubi Africa](https://www.azubiafrica.org/data-analytics)
 
 This project is the culmination of a 9-month Data Analytics program with Azubi Africa. It aims to analyze movie reviews and classify them into one of three sentiment categories: positive, negative, or neutral. Leveraging Deep Learning and Natural Language Processing (NLP) techniques, it provides sentiment predictions for movie reviews.
@@ -23,44 +22,38 @@ This project is the culmination of a 9-month Data Analytics program with Azubi A
 
 Below is a preview showcasing the app's interface.
 
-<!-- ![Prev](Screenshots/Preview3.png) -->
-
+![Prev](Screenshots/Movie_App.jpeg)
 
  👉[Gradio App is available for interaction on this url](http://127.0.0.1:7860/)
-
 
 ## Notable Features 🌟
 
 - **Data Collection:** Gathered a balanced dataset of movie reviews with sentiment labels.
-
 - **EDA:** Conducted comprehensive exploratory data analysis to gain insights.
-
 - **Data Preprocessing:** Leveraged NLP tools to clean and prepare text data for modeling.
-
 - **Model Training:** Trained various machine learning models for sentiment classification.
-
 - **Model Evaluation:** Assessed model performance with accuracy, precision, recall, and more.
-
 - **Hyperparameter Tuning:** Optimized models using grid search and cross-validation.
-
 - **App Deployment:** Deployed a user-friendly sentiment analysis app on Gradio.
-
 - **Docker Containerization:** Containerized the app for easy distribution and deployment.
 
-
 ## Setup 🛠️
+
 To set up and run the project:
 
 1. **Clone the repository**:
    ```bash
    git clone '<https://github.com/Israel-Anaba/Movie_Review_Analysis.git>'
+   ```
+
 ```
 
 2. Navigate to the project directory:
 
    ```bash
    cd movie-sentiment-analysis
-   ```
+```
+
 3. Create a virtual environment (optional but recommended):
 
    ```bash
@@ -82,7 +75,6 @@ To set up and run the project:
    pip install -r requirements.txt
    ```
 6. Explore the Jupyter notebooks for data analysis, model training, and experimentation.
-
 7. Run the Gradio app for real-time sentiment analysis:
 
    ```bash
@@ -92,27 +84,24 @@ To set up and run the project:
 ## Usage 🚀
 
 1. **Launch the Gradio App:** Start the Gradio app by running `python app.py`.
-
 2. **Analyze Reviews:** Input movie reviews to receive real-time sentiment predictions.
-
 3. **Customize and Experiment:** Modify hyperparameters, customize the pipeline, or fine-tune models to suit your needs.
 
 - To access the sepsis prediction app, you will need to be signed in to Hugging Face:
 
 1. If you don't have a Hugging Face account, you can sign up for free at .
-[Hugging Face](https://huggingface.co/signup).
+   [Hugging Face](https://huggingface.co/signup).
 2. After signing in, you can access the app using the link below:
    🔔🤖[Movie-Review-Analysis](https://gr8testgad-1-movie-review-analysis.hf.space)
-
 
 ## Author 📖 🧑‍🎓
 
 This project was developed during the Azubi Africa Data Science Training. Below is the details of the initial collaborators of this project with respective articles covering the process of the project and their individual github profiles.
 
-
 ## Contributing 🤝
 
 Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md).
+
 <!-- Contributions are welcome! Feel free to open an issue or submit a pull request. -->
 
 ## Resources 📚
@@ -129,13 +118,10 @@ Here are a few recommended resources to help you gain a solid understanding of t
 
 I would like to express my gratitude to the [Azubi Africa Data Analyst Program](https://www.azubiafrica.org/data-analytics) for their support and for offering valuable projects as part of this program. Not forgeting my scrum masters on this program [Rachel Appiah-Kubi](https://www.linkedin.com/in/racheal-appiah-kubi/) & [Emmanuel Koupoh](https://github.com/eaedk)
 
-
 ## License 📜
 
 This project is open-source and available under the [MIT License](LICENSE).
 
 Feel free to reach out to us with any questions or feedback!
 
-📧 Contact: project@example.com
-
-
+📧 Contact: [Email](officialanaba@gmail.com)
