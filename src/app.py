@@ -5,12 +5,6 @@ import pickle
 import os
 from text_preprocessing import process_text
 
-
-# Load the exported components
-# components_path = r'src\assets\ML\sentiment_components.pkl'
-# with open(components_path, 'rb') as file:
-#     components_dict = pickle.load(file)
-
 # Define the path to your pickle file using forward slashes
 components_path = 'src/assets/ML/sentiment_components.pkl'
 
@@ -21,7 +15,6 @@ if not os.path.exists(components_path):
 # Load the exported components using pickle
 with open(components_path, 'rb') as file:
     components_dict = pickle.load(file)
-
 
 loaded_cleaner = components_dict['cleaner']
 loaded_vectorizer = components_dict['cleaner_tfidf_vectorizer']
@@ -49,16 +42,12 @@ demo = gr.Interface(
     fn=sent_analysis,
     inputs=gr.Textbox(placeholder="Enter a movie review..."),
     outputs="label",
-    # interpretation="default",
+    interpretation="default",
     examples=[
         ["I loved the movie! It was fantastic."],
         ["The acting was terrible, and the plot was boring."],
         ["This film is just okay. Not great, not terrible."],
     ],
-    # title="Movie Review Analysis",
-    # description="A Machine Learning model that predicts sentiment in movie reviews, providing labels for 'NEGATIVE' and 'POSITIVE' sentiments.",
-    # theme="default",
-
     title="Movie Review Sentiment Analysis 🤖👍 👎",
     description="""
     <p style='text-align: center'>Explore this Movie Review Sentiment Analysis tool to classify the sentiment of movie reviews .</p>
@@ -73,4 +62,4 @@ demo = gr.Interface(
 
 
 if __name__ == "__main__":
-    demo.launch(server_name="0.0.0.0", server_port=7860)
+    demo.launch()
