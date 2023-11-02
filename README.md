@@ -54,7 +54,8 @@ To set up and run the project:
    cd movie-sentiment-analysis
 ```
 
-3. Create a virtual environment (optional but recommended):
+3. Create a virtual environment (optional but recommended)
+   It's recommended to isolate project dependencies, which helps prevent conflicts with system-wide Python packages.:
 
    ```bash
    python -m venv venv
@@ -87,12 +88,32 @@ To set up and run the project:
 2. **Analyze Reviews:** Input movie reviews to receive real-time sentiment predictions.
 3. **Customize and Experiment:** Modify hyperparameters, customize the pipeline, or fine-tune models to suit your needs.
 
-- To access the sepsis prediction app, you will need to be signed in to Hugging Face:
+## Dockerization 📦
+
+First create a Dockerfile, check documention : [Docker Official Documentation - Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+
+Dockerize the application with the following commands:
+
+```bash
+# Build the Docker image
+docker build -t movie-sentiment-prediction-app .
+
+# Run the Docker container
+docker run -p 7860:7860 --name movie-review-sentiment movie-sentiment-prediction-app
+```
+
+## Deployment 🌐
+
+The APP was further deployed on huggingface. You can interact with the app via huggingface following the steps below.
+
+- To access the moview review sentiment prediction app, you will need to be signed in to Hugging Face:
 
 1. If you don't have a Hugging Face account, you can sign up for free at .
    [Hugging Face](https://huggingface.co/signup).
 2. After signing in, you can access the app using the link below:
    🔔🤖[Movie-Review-Analysis](https://gr8testgad-1-movie-review-analysis.hf.space)
+
+Please note that you need to be signed in to Hugging Face to utilize this service. If you encounter any issues or have questions, feel free to checkout the huggingface documentation [Huggingface Documentation](https://huggingface.co/docs) for assistance.
 
 ## Author 📖 🧑‍🎓
 
@@ -100,9 +121,9 @@ This project was developed during the Azubi Africa Data Science Training. Below 
 
 ## Contributing 🤝
 
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md).
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+<!-- Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md). -->
 
-<!-- Contributions are welcome! Feel free to open an issue or submit a pull request. -->
 
 ## Resources 📚
 
