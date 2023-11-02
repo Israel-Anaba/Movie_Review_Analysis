@@ -2,11 +2,23 @@
 import gradio as gr
 import joblib
 import pickle
+import os
 from text_preprocessing import process_text
 
 
 # Load the exported components
-components_path = r'src\assets\ML\sentiment_components.pkl'
+# components_path = r'src\assets\ML\sentiment_components.pkl'
+# with open(components_path, 'rb') as file:
+#     components_dict = pickle.load(file)
+
+# Define the path to your pickle file using forward slashes
+components_path = 'src/assets/ML/sentiment_components.pkl'
+
+# Check if the pickle file exists
+if not os.path.exists(components_path):
+    raise Exception(f"Pickle file '{components_path}' not found. Please check the file path.")
+
+# Load the exported components using pickle
 with open(components_path, 'rb') as file:
     components_dict = pickle.load(file)
 
@@ -37,7 +49,7 @@ demo = gr.Interface(
     fn=sent_analysis,
     inputs=gr.Textbox(placeholder="Enter a movie review..."),
     outputs="label",
-    interpretation="default",
+    # interpretation="default",
     examples=[
         ["I loved the movie! It was fantastic."],
         ["The acting was terrible, and the plot was boring."],
@@ -61,4 +73,4 @@ demo = gr.Interface(
 
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(server_name="0.0.0.0", server_port=7860)
