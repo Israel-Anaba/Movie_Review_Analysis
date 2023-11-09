@@ -1,4 +1,4 @@
-# Use the official Python base image for FastAPI
+# Use the official Python base image for Gradio
 FROM python:3.11-slim
 
 # Set the working directory in the container

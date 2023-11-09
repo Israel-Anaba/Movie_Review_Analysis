@@ -85,7 +85,7 @@ To set up and run the project:
    ```bash
    python app.py
    ```
-
+🚥 NOTE: You can run the notebooks outside the venv
 
 ## Usage 🚀
 
