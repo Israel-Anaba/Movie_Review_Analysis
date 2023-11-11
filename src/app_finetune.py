@@ -60,10 +60,9 @@ demo = gr.Interface(
     <p style='text-align: center'><a href='https://github.com/Israel-Anaba/Movie_Review_Analysis/blob/main/src/app.py' target='_blank'>Check out the GitHub repository for more details.</a></p>
     """,
     theme="default",
-
-    live=True,
+   
+    live=False,
 )
-
 
 if __name__ == "__main__":
     demo.launch()

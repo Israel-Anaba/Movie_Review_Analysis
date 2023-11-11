@@ -17,7 +17,7 @@ The objective of this project is to perform sentiment analysis on text data. Giv
 
 🎓 Capstone Project - Data Analytics Program with [Azubi Africa](https://www.azubiafrica.org/data-analytics)
 
-This project is the culmination of a 9-month Data Analytics program with Azubi Africa. It aims to analyze movie reviews and classify them into one of three sentiment categories: positive, negative, or neutral. Leveraging Deep Learning and Natural Language Processing (NLP) techniques, it provides sentiment predictions for movie reviews.
+This project is the culmination of a 9-month Data Analytics program with Azubi Africa. It aims to analyze movie reviews and classify them into one of three sentiment categories: positive, negative, or neutral. Leveraging Deep Learning and Natural Language Processing (NLP) techniques, it provides sentiment predictions for movie reviews. A model trained to determine the sentiments  is made accessible through Gradio and Streamlit interfaces for user interaction. Additionally, the model is hosted on the Hugging Face Model Hub for broader accessibility and collaboration within the data science community. Deployment is streamlined using Docker for consistent performance across environments
 
 
 ## Preview 👁️
@@ -27,6 +27,8 @@ Below is a preview showcasing the app's interface.
 ![Prev](Screenshots/Movie_App.jpeg)
 
  👉❗ [Gradio App is available for interaction on this url](http://127.0.0.1:7860/) ❗
+
+ 👉❗ [Streamlit App is available for interaction on this url](http://localhost:8501) ❗
 
 
 ## Notable Features 🌟
@@ -83,8 +85,15 @@ To set up and run the project:
 7. Run the Gradio app for real-time sentiment analysis:
 
    ```bash
-   python app.py
+   python src/app.py
    ```
+8.   Run the Streamlit app for real-time sentiment analysis:
+
+   ```bash
+   streamlit run src/app_streamlit.py
+
+   ```
+
 🚥 NOTE: You can run the notebooks outside the venv
 
 ## Usage 🚀
@@ -119,7 +128,8 @@ The APP was further deployed on huggingface. You can interact with the app via h
    [Hugging Face](https://huggingface.co/signup).
 
 2. After signing in, you can access the app using the link below:
-   🔔 ❗🤖[Movie-Review-Analysis](https://gr8testgad-1-movie-review-analysis.hf.space)❗
+   🔔 ❗🤖[Movie-Review-Analysis-Gradio](https://gr8testgad-1-movie-review-analysis.hf.space)❗
+   🔔 ❗🤖[Movie-Review-Analysis-Streamlit](https://huggingface.co/spaces/gr8testgad-1/Movie-Review-Sentiment-Roberta)❗
 
 Please note that you need to be signed in to Hugging Face to utilize this service. If you encounter any issues or have questions, feel free to checkout the huggingface documentation [Huggingface Documentation](https://huggingface.co/docs) for assistance.
 
