@@ -57,7 +57,7 @@ demo = gr.Interface(
     """,
     theme="default",
 
-    live=True,
+    live=False,
 )
 
 

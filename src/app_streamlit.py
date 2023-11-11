@@ -54,8 +54,8 @@ st.markdown(
             background-color: #FFD700;  /* Gold */
         }
         .stButton {
-            background-color: #FF6347;  /* Tomato */
             color: #000000;
+
         }
         .sidebar .sidebar-content {
             background-color: #87CEEB;  /* Sky Blue */
@@ -63,6 +63,27 @@ st.markdown(
     </style>
     """,
     unsafe_allow_html=True
+)
+
+# Sidebar with example reviews and additional information
+st.sidebar.subheader("Example Reviews:")
+st.sidebar.write("- I loved the movie! It was fantastic.")
+st.sidebar.write("- The acting was terrible, and the plot was boring.")
+st.sidebar.write("- This film is just okay. Not great, not terrible.")
+
+# Sidebar with additional information
+st.sidebar.subheader("About Movie Sentiment Analysis App:")
+st.sidebar.markdown(
+    """
+    Explore this Movie Review Sentiment Analysis tool to classify the sentiment of movie reviews.
+
+    - Simply enter your movie review text in the input box.
+    - Click the **Submit** button to see the predicted sentiment.
+
+    This Machine Learning model is designed to help you understand the sentiment conveyed in movie reviews, whether they are Positive OR Negative.
+
+    [Check out the GitHub repository for more details.](https://github.com/Israel-Anaba/Movie_Review_Analysis/blob/main/src/app.py)
+    """
 )
 
 # Streamlit App
@@ -84,18 +105,7 @@ if st.button("Submit"):
     predicted_sentiment = max(sentiment_scores, key=sentiment_scores.get)
     st.write(f"Predicted Sentiment: {predicted_sentiment}")
 
-# Sidebar with example reviews and additional information
-st.sidebar.subheader("Example Reviews:")
-st.sidebar.write("- I loved the movie! It was fantastic.")
-st.sidebar.write("- The acting was terrible, and the plot was boring.")
-st.sidebar.write("- This film is just okay. Not great, not terrible.")
 
-st.sidebar.subheader("Additional Information:")
-st.sidebar.markdown(
-    """
-    Explore this Movie Review Sentiment Analysis tool to classify the sentiment of movie reviews.
-    Simply enter your movie review text and click the submit button to see the predicted sentiment.
-    This Machine Learning model is designed to help you understand the sentiment conveyed in movie reviews, whether they are Positive OR Negative.
-    [Check out the GitHub repository for more details.](https://github.com/Israel-Anaba/Movie_Review_Analysis/blob/main/src/app.py)
-    """
-)
+    # Create a "Clear" button to clear the input text
+if st.button("Clear"):
+    review_text = ""  
