@@ -1,4 +1,5 @@
 gradio
+streamlit
 pandas==1.5.3
 numpy==1.23.5
 seaborn==0.12.2
