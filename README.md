@@ -12,6 +12,7 @@ The objective of this project is to perform sentiment analysis on text data. Giv
 [![Hugging Face Deployment](https://img.shields.io/badge/Hugging%20Face-Deployed-brightgreen)](https://huggingface.co/my-awesome-ml-web-app)
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
+
 ## About 📚
 
 🎓 Capstone Project - Data Analytics Program with [Azubi Africa](https://www.azubiafrica.org/data-analytics)
@@ -24,12 +25,13 @@ Below is a preview showcasing the app's interface.
 
 ![Prev](Screenshots/Movie_app_1.jpeg)
 
+👉❗ [Gradio App is available for interaction on this url](http://127.0.0.1:7860/) ❗
+
 
 ![Prev1](Screenshots/Movie_app4.jpeg)
 
- 👉❗ [Gradio App is available for interaction on this url](http://127.0.0.1:7860/) ❗
 
- 👉❗ [Streamlit App is available for interaction on this url](http://localhost:8501) ❗
+👉❗ [Streamlit App is available for interaction on this url](http://localhost:8501) ❗
 
 ## Notable Features 🌟
 
@@ -95,6 +97,7 @@ To set up and run the project:
 
 🚥 NOTE: You can run the notebooks outside the venv
 
+
 ## Usage 🚀
 
 1. **Launch the Gradio App:** Start the Gradio app by running `python app.py`.
@@ -129,6 +132,7 @@ The APP was further deployed on huggingface. You can interact with the app via h
 
 Please note that you need to be signed in to Hugging Face to utilize this service. If you encounter any issues or have questions, feel free to checkout the huggingface documentation [Huggingface Documentation](https://huggingface.co/docs) for assistance.
 
+
 ## Author 📖 🧑‍🎓
 
 This project was developed during the Azubi Africa Data Science Training. Find in the provided link an article covering interesting findings from the project.
@@ -136,6 +140,7 @@ This project was developed during the Azubi Africa Data Science Training. Find i
 | Name                | Article                                                                                                                                                                                  |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Israel Anaba Ayamga | [Mastering Sentiment Analysis: A Data Science Project with Azubi Africa](https://israelanaba.medium.com/mastering-sentiment-analysis-a-data-science-project-with-azubi-africa-28106a33d0b5) |
+
 
 ## Contributing 🤝
 
@@ -152,6 +157,7 @@ Here are a few recommended resources to help you gain a solid understanding of t
 ❗[Get to know about Hugging Face](https://huggingface.co/)
 
 ❗[More on Docker](https://www.docker.com/)
+
 
 ## Acknowledgement 🥇
 
